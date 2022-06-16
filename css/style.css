@@ -1,0 +1,176 @@
+/*login.php*/
+body {
+	background-color: #D9D9D9;
+}
+
+#bg-login {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+}
+
+.box-login h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+h6 a center{
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.box-login {
+	width: 300px;
+	min-height: 200px;
+	background-color: #FFFFFF;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.input-control {
+	width: 200px;
+	padding: 5px;
+	color: #686868;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	box-sizing: border-box;
+}
+
+.btm {
+	width: 70px;
+	padding: 5px;
+	background-color: #2FAAFF;
+	color: #fff;
+	margin-left: 100px;
+	border: 0px solid;
+}
+
+/*dashboard.php*/
+* {
+	color: inherit;
+}
+
+header {
+	height: 10vh;
+	border: 0px solid;
+	background-color: #2FAAFF;
+	color: #FFF;
+}
+
+.header h1 {
+	font-size: 40px;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-family: 'Lobster', sans-serif;
+	float: left;
+}
+
+.header ul{
+	font-size: 15px;
+	margin-right: 80px;
+	margin-top: 40px;
+	float: right;
+}
+
+.header ul li {
+	display: inline-block;
+}
+
+.header ul li a {
+	padding: 3px;
+}
+
+.header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.content {
+	padding: 20px 0;
+	border: 0px solid;
+}
+
+.box {
+	margin-left: 80px;
+	width: 1200px;
+	padding: 8px;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+footer {
+	margin-left: 65px;
+	padding: 15px;
+}
+
+/*profil.php*/
+.input-profil {
+	color: #A9A9A9;
+	width: 1180px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.btm-profil {
+	background-color: #2FAAFF;
+	color: #fff;
+	width: 80px;
+	padding: 5px;
+	border: 0px solid;
+}
+
+/*jenis.php*/
+.table {
+	width: 1180px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.table tr {
+	height: 30px;
+}
+
+.box2 {
+	margin-left: 80px;
+	width: 1200px;
+	padding: 8px;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+.content h3 {
+	margin-left: 80px;
+}
+
+.content h5 {
+	font-size: 20px;
+}
+
+.btm-produk {
+	width: 30px;
+}
+
+a.btm-reg {
+	font-size: 12px;
+}
+
+.selection h5 {
+	margin-left: 80px;
+	font-size: 20px;
+}
